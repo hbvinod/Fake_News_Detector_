@@ -14,9 +14,7 @@ from typing import List, Dict, Optional, Any
 from dotenv import load_dotenv
 from openai import OpenAI
 
-# ---------------------------------------------------------
-# LOGGING
-# ---------------------------------------------------------
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("fake-news-backend")
 
