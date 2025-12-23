@@ -19,9 +19,8 @@ from openai import OpenAI
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("fake-news-backend")
 
-# ---------------------------------------------------------
+
 # ENVIRONMENT VARIABLES
-# ---------------------------------------------------------
 load_dotenv()
 CHATGPT_KEY = os.getenv("CHATGPT_KEY")
 SERP_ID = os.getenv("SERP_ID")
