@@ -38,7 +38,7 @@ client = OpenAI(api_key=CHATGPT_KEY)
 
 # ---------------------------------------------------------
 
-# FASR API AETUP 
+# FAST API SETUP 
 app = FastAPI()
 
 app.add_middleware(
